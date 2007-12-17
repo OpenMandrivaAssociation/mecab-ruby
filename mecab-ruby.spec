@@ -11,7 +11,6 @@ License:    LGPL
 Group:      System/Internationalization
 URL:        http://mecab-ruby.sourceforge.jp/
 Source0:    http://prdownloads.sourceforge.jp/mecab/19468/%{name}-%{version}.tar.bz2
-BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-root
 Requires:      mecab >= %{mecab_version}
 BuildRequires: mecab-devel >= %{mecab_version}
 BuildRequires: ruby-devel
