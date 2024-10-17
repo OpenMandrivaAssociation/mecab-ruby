@@ -9,7 +9,7 @@ Version:    %{version}
 Release:    %{release}
 License:    LGPLv2+
 Group:      System/Internationalization
-URL:        http://mecab-ruby.sourceforge.jp/
+URL:        https://mecab-ruby.sourceforge.jp/
 Source0:    http://sourceforge.net/projects/mecab/files/%{name}/%{version}/%{name}-%{version}.tar.gz
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-root
 Requires:      mecab >= %{mecab_version}
