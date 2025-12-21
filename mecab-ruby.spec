@@ -13,6 +13,7 @@ URL:        https://mecab-ruby.sourceforge.jp/
 Source0:    http://sourceforge.net/projects/mecab/files/%{name}/%{version}/%{name}-%{version}.tar.gz
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-root
 Requires:      mecab >= %{mecab_version}
+BuildRequires:	make
 BuildRequires: mecab-devel >= %{mecab_version}
 BuildRequires: ruby-devel
 
